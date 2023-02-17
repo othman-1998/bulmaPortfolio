@@ -5,3 +5,22 @@
 .venstre img {
     border-radius: 20px;
 }
+
+
+.boks1 {
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 5%);
+    width: 30%;
+    border-radius: 20px;
+}
+
+.boks2 {
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 5%);
+    width: 30%;
+    border-radius: 20px;
+}
+
+.boks3 {
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 5%);
+    width: 30%;
+    border-radius: 20px;
+}

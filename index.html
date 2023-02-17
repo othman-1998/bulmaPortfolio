@@ -9,17 +9,17 @@
   </head>
   <body>
 
-    <div class="parent ml-6 mr-6 has-text-black">
+    <div class="parent mt-3 ml-6 mr-6 has-text-black">
 
-        <div class="is-flex is-align-items-center has-text-black mb-6">
-            <div class="column is-size-2 has-text-weight-bold">
+        <div class="columns is-flex is-align-items-center has-text-black mb-6">
+            <div class="column is-two-fifths is-size-2 has-text-weight-bold">
               OEM
             </div>
-            <div class="column">
-              <ul class="is-flex is-size-6">
-                <button class="button is-light has-background-light p-3 has-text-weight-bold has-text-black">About</button>
-                <button class="button is-light ml-5 has-background-light p-3 has-text-weight-bold has-text-black">Expetrise</button>
-                <button class="button is-light ml-5 has-background-light p-3 has-text-weight-bold has-text-black">Projects</button>
+            <div id="nav" class="">
+              <ul class="column is-flex is-size-6">
+                <button class="button about nav__link is-light has-background-light p-3 has-text-weight-bold has-text-black">About</button>
+                <button class="button expertise nav__link is-light ml-5 has-background-light p-3 has-text-weight-bold has-text-black">Expetrise</button>
+                <button class="button projects nav__link is-light ml-5 has-background-light p-3 has-text-weight-bold has-text-black">Projects</button>
               </ul>
             </div>
         </div>
@@ -57,25 +57,24 @@
             </div>
         </div>
 
-        <div id="expertise" class="sectionTwo mt-40 mt-6 pt-6">
+        <div id="expertise" class="sectionTwo mt-40 mt-6 pt-6 mb-6">
             <div class="border-t-4 md:w-2.5 border-indigo-500 w-8"></div>
             <h2 class="is-size-3 has-text-weight-bold">My expertise</h2>
             <p class="text-lg mb-3 md:w-1/2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis scelerisque purus eu quis lacus, nibh pharetra.</p>
 
-            <div class=" is-flex">
-                <div  class="box box1 has-text-centered p-4 shadow-lg md:h-100 pt-32 md:pb-10 relative mb-20">
-                    <img class="absolute m-auto left-0 right-0 top-0 w-24 rounded-3xl pt-2" style="width: 100px" src="img/html5-svgrepo-com.svg">
+            <div class="is-flex columns is-justify-content-space-between">
+                <div  class=" boks1 has-text-centered p-5">
+                    <img class="left-0 right-0 top-0 w-24 rounded-3xl pt-2" style="width: 100px" src="img/html5-svgrepo-com.svg">
                     <h4 class="is-size-5 has-text-weight-bold">HTML & CSS</h4>
                     <p class="text-lg text-center">Worked with HTML & CSS for a couple of years, and have big experience with the markup language and style sheet</p>
                 </div>
-                <div class="box box2 md:ml-10 has-text-centered	 p-4 shadow-lg md:h-100 pt-32 md:pb-10 relative mb-20">
-                    <img class="absolute m-auto left-0 right-0 top-0 w-24 rounded-3xl pt-2" style="width: 100px" src="img/vscode-insiders-svgrepo-com.svg">
+                <div class=" boks2 has-text-centered p-5">
+                    <img class="left-0 right-0 top-0 w-24 rounded-3xl pt-2" style="width: 100px" src="img/vscode-insiders-svgrepo-com.svg">
                     <h4 class="is-size-5 has-text-weight-bold">CSS frameworks</h4>
                     <p class="text-lg text-center">Good experience with CSS frameworks where my favourites are Tailwind, Bootstrap & Bulma</p>
                 </div>
-
-                <div class="box box3 has-text-centered md:ml-10 p-4 shadow-lg pt-32 md:pb-10 relative mb-20">
-                    <img class="absolute m-auto left-0 right-0 top-0 w-24 rounded-3xl pt-2" style="width: 100px" src="img/react-svgrepo-com.svg">
+                <div class=" boks3 has-text-centered p-5">
+                    <img class="left-0 right-0 top-0 w-24 rounded-3xl pt-2" style="width: 100px" src="img/react-svgrepo-com.svg">
                     <h4 class="is-size-5 has-text-weight-bold">Frameworks & Libraries</h4>
                     <p class="text-lg text-center">Working and still learning a lot about React and Angular with help from JavaScript and TypeScript</p>
                 </div>
@@ -84,7 +83,6 @@
 
     </div>
 
-
-
+    <script src="index.js"></script>
   </body>
 </html>
